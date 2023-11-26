@@ -26,7 +26,7 @@ const  handleOnChange = (e) =>{
             break;
     }
     };
-    const  handleOnSubmit= (e) =>{
+    const  handleOnSubmit = (e) =>{
         e.preventDefault();
         
         if (!email || !password ){
@@ -34,7 +34,7 @@ const  handleOnChange = (e) =>{
                     }
 
                     //TODO call api to submit the form
-          console.log(email,password);          
+          console.log(email, password);          
     };
     const  handlOnResetSubmit= (e) =>{
         e.preventDefault();
